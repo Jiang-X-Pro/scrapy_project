@@ -1,9 +1,9 @@
 # scrapy_project
 something interesting
-  int a = (0x55) | (0x55 << 8);
-  int mask0 = a | (a << 16);
-  int b = (0x33) | (0x33 << 8);
-  int mask1 = b | (b << 16);
+int a = (0x55) | (0x55 << 8);
+int mask0 = a | (a << 16);
+int b = (0x33) | (0x33 << 8);
+int mask1 = b | (b << 16);
   int c = (0x0F) | (0x0F << 8);
   int mask2 = c | (c << 16);
   int mask3 = (0xFF) | (0xFF << 16);
